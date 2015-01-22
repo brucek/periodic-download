@@ -3,7 +3,7 @@ App for freelancer tests.
 
   * NOTE THAT MOST CODE SHOULD BE IN `js/download.js`
 
-  * Cached data should be stored via local storage - `chrome.storage.local` is fine.
+  * Cached data should be stored in the extension via indexedDB API - local storage is unacceptable.
 
   * Sources to cache are in `js/sources.json`
 
