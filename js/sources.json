@@ -1,0 +1,15 @@
+{
+  "downloadFrequencyMinutes": 10,
+  "sourceList": [
+    ["Flickr Public", "https://api.flickr.com/services/feeds/photos_public.gne"],
+    ["Reuters Top News", "http://feeds.reuters.com/reuters/topNews"],
+    ["LA Film Jobs", "http://losangeles.craigslist.org/search/tfr?format=rss"],
+    ["Dean Edwards", "http://dean.edwards.name/weblog/feed/"],
+    ["John Resig", "http://ejohn.org/category/blog/feed/"],
+    ["Nicholas Zakas", "http://www.nczonline.net/blog/feed/"],
+    ["Dustin Diaz", "http://feeds.feedburner.com/WSwI?format=xml"],
+    ["Brendan Eich", "http://brendaneich.com/feed/"],
+    ["Thomas Fuchs", "http://mir.aculo.us/feed/atom/"],
+    ["Paul Irish", "http://feeds.feedburner.com/paul-irish?format=xml"]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "periodic-download",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Sample extension for testing",
+  "homepage_url": "https://github.com/brucek/periodic-download",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Show info",
+    "default_popup": "src/info/info.html"
+  }
+}
