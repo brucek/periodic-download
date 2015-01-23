@@ -54,15 +54,12 @@ var RequestApp = (function() {
 			var self = this;
 
 			$.ajax({
-			    url: "http://query.yahooapis.com/v1/public/yql",
-			    jsonp: "callback",
-			    data: {
-			        q: 'select * from feed where url = "' + url + '"',
-			        format: "json"
-			    },
-			    success: function( response ) {
+			    url: url,
+			    type: 'GET',
+			    dataType: 'text',
+			    success: function(response) {
 			    	var end = new Date();
-			        self.saveData(name, url, response.query.results, start, end);
+			        self.saveData(name, url, response, start, end);
 			    }
 			});
 

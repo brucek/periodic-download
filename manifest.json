@@ -16,5 +16,9 @@
     "default_icon": "icons/icon19.png",
     "default_title": "Show info",
     "default_popup": "src/info/info.html"
-  }
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
 }
